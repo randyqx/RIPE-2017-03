@@ -23,23 +23,24 @@ Policy Term:		Permanent
 Summary of Proposal:
 --------------------
 
-Adoption of IPv6 has been slower than desired; therefore, IPv6/IPv4 
-inter-operation will be with us for a long time.  This policy proposal 
-aims to extend the RIPE NCC's ability to provide a minimum of IPv4 space to 
-newcomers (hopefully for another decade, at least) to allow use of 
-transition mechanisms. The current consumption rate can be slowed by 
-changing the initial IPv4 Allocation size from a /22 to a /24 (or even 
-further), and not allowing a subsequent IPv4 allocation. If the minimum 
-globally routable acceptable prefix changes from /24 to a smaller prefix, 
-the initial IPv4 Allocation should also change to match. Historically, at a 
-given point in time, the minimum allocation size (and hence the minimum 
-routing block) was a /19 [see RFC2050], and this has evolved to the current 
-size of 256 addresses (/24). While changing the initial and only IPv4 
-Allocation in the RIPE NCC service region to a /24 should be the primary 
-goal. The authors anticipate it is possible to agree on an even smaller 
-initial size, if global agreement on routing prefixes longer than a /24 is 
-achieved. In that regard, some research should be performed, in order to 
-test global reachability for prefixes longer than a /24.
+Adoption of IPv6 has been slower than desired; therefore, IPv6/IPv4
+inter-operation will be with us for a long time.  This policy proposal
+aims to extend the RIPE NCC's ability to provide a minimum of IPv4 space
+to newcomers (hopefully for another decade, at least) to allow use of
+transition mechanisms. The current consumption rate can be slowed by
+changing the initial IPv4 Allocation size from a /22 to a /24 (or even
+further), and not allowing a subsequent IPv4 allocation. If the minimum
+globally routable acceptable prefix changes from /24 to a smaller
+prefix, the initial IPv4 Allocation should also change to
+match. Historically, at a given point in time, the minimum allocation
+size (and hence the minimum routing block) was a /19 [see RFC2050], and
+this has evolved to the current size of 256 addresses (/24). While
+changing the initial and only IPv4 Allocation in the RIPE NCC service
+region to a /24 should be the primary goal. The authors anticipate it is
+possible to agree on an even smaller initial size, if global agreement
+on routing prefixes longer than a /24 is achieved. In that regard, some
+research should be performed, in order to test global reachability for
+prefixes longer than a /24.
 
 
 
@@ -88,7 +89,7 @@ The LIR must confirm it will make assignment(s) from the allocation.
 
 In case an allocation of a single /24 as per clause 1 can no longer be 
 made, no allocation is to be made. If the minimum allocation size can't be 
-changed into a smaller size by a future policy proposal, full IPv4 runout 
+changed into a smaller size by a future policy proposal, full IPv4 run-out 
 in the service region should be declared by the RIPE NCC.
 
 
@@ -96,7 +97,7 @@ in the service region should be declared by the RIPE NCC.
 Rationale:
 ----------
 
-The NCC's total runout of IPv4 addresses is seen as an abrogation of 
+The NCC's total run-out of IPv4 addresses is seen as an abrogation of 
 responsibility, and any measures that can be taken to postpone that point 
 in time should be seen as critical. By extending the availability of IPv4 
 addresses to newcomers, the community shows goodwill towards competition 
@@ -129,7 +130,7 @@ As long as the prefix is globally routable, the allocation can be fully or
 partially used for IPv4/IPv6 translation mechanisms.
 
 Reducing the initial/only allocation from /22 to /24 will extend the 
-timeframe during which new companies can obtain some IPv4 address space in 
+time frame during which new companies can obtain some IPv4 address space in 
 the NCC's service region without the need to trade for address space (at 
 least during their initial setup). 
 
@@ -144,7 +145,7 @@ between a /25 and a /29.
 
 b. Arguments Opposing the Proposal
 
-* Extending the full IPv4 runout date on the RIPE NCC's service region can be 
+* Extending the full IPv4 run-out date on the RIPE NCC's service region can be 
 seen as a way to delay IPv6 deployment. 
 
 Mitigation/counter-argument: The aim has not changed since the first 
@@ -194,4 +195,3 @@ ARIN has a dedicated IPv4 block to facilitate IPv6 deployment on 4.10.
 ratified on the 16th August, changing the initial allocation size from a /22 
 to a /24.
 (ref: https://politicas.lacnic.net/politicas/detail/id/LAC-2017-4?language=en)
-
