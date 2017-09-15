@@ -139,8 +139,10 @@ approved -- because each new LIR would get less IPv4 space for the same
 amount of money. Thus, decreasing of the free IPv4 available pool is likely 
 to slow down.
 
-According to the RIPE NCC there are already around 30 Allocations with size 
-between a /25 and a /29.
+According to NCC statistics, there are already around 30 Allocations
+with size between a /25 and a /29; artifacts of history.  But a look at
+https://www.ripe.net/manage-ips-and-asns/resource-transfers-and-mergers/transfer-statistics/within-ripe-ncc-service-region/ipv4-transfer-statistics
+grepping for "/24" shows that transfers of /24s are common.
 
 
 b. Arguments Opposing the Proposal
