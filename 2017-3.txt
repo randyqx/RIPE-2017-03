@@ -182,6 +182,13 @@ growth tells us this can be smoothly handled. On the economics side, it will
 bring more revenue, and it is easy to foresee lower yearly membership fees 
 (or larger yearly rebates).
 
+* How would folk announce longer prefixes for DDoS protection?
+
+As operators accept /24s today, when the allocation size is /22, it
+might be wise to accept prefixes longer than /24 when the allocation
+size is /24.  Of course, this would be in the well-documented address
+range(s) where /24s are allocated.
+
 
 c. Alignment with other RIRs:
 
