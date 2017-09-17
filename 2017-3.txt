@@ -5,8 +5,8 @@ Reducing Initial IPv4 Allocation, aiming to preserve a minimum of IPv4 space
 for newcomers
 
 Authors:	Randy Bush / randy@psg.com / IIJ
-		Anna Wilson / anna.wilson@heanet.ie / HEAnet
 		Carlos Friacas / cfriacas@fccn.pt / FCT|FCCN
+		Anna Wilson / anna.wilson@heanet.ie / HEAnet
 
 Proposal Version:	1.0
 
