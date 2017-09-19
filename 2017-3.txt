@@ -1,8 +1,8 @@
 Number: 2017-03
 
 Policy Proposal Name:
-Reducing Initial IPv4 Allocation, aiming to preserve a minimum of IPv4 space
-for newcomers
+Reducing Initial IPv4 Allocation, Aiming to Preserve a Minimum of IPv4 Space
+for Newcomers
 
 Authors:	Randy Bush / randy@psg.com / IIJ
 		Carlos Friacas / cfriacas@fccn.pt / FCT|FCCN
@@ -24,22 +24,22 @@ Summary of Proposal:
 --------------------
 
 Adoption of IPv6 has been slower than desired; therefore, IPv6/IPv4
-inter-operation will be with us for a long time.  This policy proposal
+interoperation will be with us for a long time. This policy proposal
 aims to extend the RIPE NCC's ability to provide a minimum of IPv4 space
-to newcomers (hopefully for another decade, at least) to allow use of
+to newcomers (hopefully for another decade, at least) to allow the use of
 transition mechanisms. The current consumption rate can be slowed by
-changing the initial IPv4 Allocation size from a /22 to a /24 (or even
+changing the initial IPv4 allocation size from a /22 to a /24 (or even
 further), and not allowing a subsequent IPv4 allocation. If the minimum
-globally routable acceptable prefix changes from /24 to a smaller
-prefix, the initial IPv4 Allocation should also change to
-match. Historically, at a given point in time, the minimum allocation
-size (and hence the minimum routing block) was a /19 [see RFC2050], and
+globally-routable prefix changes from a /24 to a smaller
+prefix, the initial IPv4 allocation should also change to
+match. Historically, the minimum allocation
+size (and hence the minimum routable block) was a /19 [see RFC2050], and
 this has evolved to the current size of 256 addresses (/24). While
-changing the initial and only IPv4 Allocation in the RIPE NCC service
-region to a /24 should be the primary goal. The authors anticipate it is
+changing the initial and only IPv4 allocation in the RIPE NCC service
+region to a /24 should be the primary goal, the authors anticipate it will be
 possible to agree on an even smaller initial size, if global agreement
-on routing prefixes longer than a /24 is achieved. In that regard, some
-research should be performed, in order to test global reachability for
+on routing prefixes longer than a /24 is achieved. In this regard, some
+research should be performed to test global reachability for
 prefixes longer than a /24.
 
 
@@ -90,48 +90,48 @@ The LIR must confirm it will make assignment(s) from the allocation.
 In case an allocation of a single /24 as per clause 1 can no longer be 
 made, no allocation is to be made. If the minimum allocation size can't be 
 changed into a smaller size by a future policy proposal, full IPv4 run-out 
-in the service region should be declared by the RIPE NCC.
+in the service region will be declared by the RIPE NCC.
 
 
 
 Rationale:
 ----------
 
-The NCC's total run-out of IPv4 addresses is seen as an abrogation of 
-responsibility, and any measures that can be taken to postpone that point 
+The total run-out of IPv4 addresses will be seen as an end to the RIPE community's 
+responsibility in this area, and any measures that can be taken to postpone this point 
 in time should be seen as critical. By extending the availability of IPv4 
 addresses to newcomers, the community shows goodwill towards competition 
-laws & regulations. The global internet is going to be dual-stack for 
+laws and regulations. The global Internet is going to be dual-stack for 
 another decade or two.  
 
-An enterprise, ISP or public/governmental organization will not be able to 
+An enterprise, ISP or public/governmental organisation will not be able to 
 run without some IPv4 space and some IPv6 space. Pure IPv6 (i.e. IPv6-only) 
 is not going to be tenable for a long while. Our goal is to keep providing 
 newcomers with as little IPv4 space as possible and as much use of IPv6 
 space as possible. 
 
-The rationale here is that an organization can operate with a minimal set 
+The rationale here is that an organisation can operate with a minimal set 
 of IPv4 out front and NAT64 or other transition technology so they can use 
-IPv6 internally.  If they can't get that bit of IPv4, they simply can't 
-run on the actual internet of the next decade or two.
+IPv6 internally. If they can't get that bit of IPv4, they simply can't 
+run on the actual Internet of the next decade or two.
 
-There have been experiments about using routing prefixes longer than /24. 
-In the future large ISPs/Carriers could agree to route prefixes longer than 
-/24 if they are inside well defined ranges that are easily identifiable and 
+There have been experiments on using routing prefixes longer than a /24. 
+In the future, large ISPs/Carriers could agree to route prefixes longer than 
+a /24 if they are inside well-defined ranges that are easily identifiable and 
 integrated into ACL automation. 
 
 
 a. Arguments Supporting the Proposal
 
 A /24 prefix is more than enough as a minimum foothold on the IPv4 Internet 
-for emerging companies almost locked-in into an IPv6 world.
+for emerging companies that are almost locked-in to an IPv6 world.
 
 As long as the prefix is globally routable, the allocation can be fully or 
 partially used for IPv4/IPv6 translation mechanisms.
 
-Reducing the initial/only allocation from /22 to /24 will extend the 
+Reducing the initial/only allocation from a /22 to a /24 will extend the 
 time frame during which new companies can obtain some IPv4 address space in 
-the NCC's service region without the need to trade for address space (at 
+the RIPE NCC service region without the need to trade for address space (at 
 least during their initial setup). 
 
 Opening multiple LIR accounts will be less attractive if this policy is 
@@ -139,34 +139,34 @@ approved -- because each new LIR would get less IPv4 space for the same
 amount of money. Thus, decreasing of the free IPv4 available pool is likely 
 to slow down.
 
-According to NCC statistics, there are already over 60 assignments
-with size between a /25 and a /29; artifacts of history.  But a look at
+According to the RIPE NCC's statistics, there are already over 60 assignments
+between a /25 and a /29 in size; artifacts of history.  But a look at
 https://www.ripe.net/manage-ips-and-asns/resource-transfers-and-mergers/transfer-statistics/within-ripe-ncc-service-region/ipv4-transfer-statistics
 grepping for "/24" shows that transfers of /24s are common.
 
 
 b. Arguments Opposing the Proposal
 
-* Extending the full IPv4 run-out date on the RIPE NCC's service region can be 
+* Extending the full IPv4 run-out date in the RIPE NCC service region can be 
 seen as a way to delay IPv6 deployment. 
 
 Mitigation/counter-argument: The aim has not changed since the first 
 iteration of the last /8 policy; networks require a little IPv4 to use IPv6, 
-and the purpose of the policy has always been to provide that space so that 
+and the purpose of the policy has always been to provide that space so the 
 IPv6 transition can be facilitated. All that has changed since that 
 consensus is that we now have more data on the rate of consumption.
 
-* For each /22 (currently allocated), one prefix will only be added to the 
+* For each /22 (currently allocated), only one prefix will only be added to the 
 global routing system. 
 
-Mitigation/counter-argument: this is mostly inaccurate, as any /22 owner can 
+Mitigation/counter-argument: This is mostly inaccurate, as any /22 holder can 
 effectively announce/generate four /24s and many do Fragmentation is 
-ultimately limited not by the size of a RIR allocation, but by global 
+ultimately limited not by the size of an RIR allocation, but by global 
 agreement on routable prefixes.
 
 * LIRs get less addresses in return for their yearly membership fee. It can 
 be argued that the adoption of this policy will create unfairness between 
-newcomers and organizations that became a LIR during the current application 
+newcomers and organisations that became an LIR during the current application 
 of the last /8 policy.
 
 Mitigation/counter-argument: Older LIRs also received more IPv4 address 
@@ -174,19 +174,19 @@ space from the RIPE/NCC according to existing rules. Enabling more newcomers
 to receive IPv4 address space seems to clearly supersede in importance any 
 possible sense of unfairness.
 
-* The number of RIPE NCC members will grow even more.
+* The number of RIPE NCC members will grow even larger.
 
 Mitigation/counter-argument: While the management of more members can have 
-an impact on RIPE NCC, experience drawn from recent years' membership 
-growth tells us this can be smoothly handled. On the economics side, it will 
+an impact on the RIPE NCC, experience drawn from recent years' membership 
+growth tells us this can be handled smoothly. On the economics side, it will 
 bring more revenue, and it is easy to foresee lower yearly membership fees 
 (or larger yearly rebates).
 
 * How would folk announce longer prefixes for DDoS protection?
 
-As operators accept /24s today, when the allocation size is /22, it
-might be wise to accept prefixes longer than /24 when the allocation
-size is /24.  Of course, this would be in the well-documented address
+Mitigation/counter-argument: As operators accept /24s today, when the allocation 
+size is a /22, it might be wise to accept prefixes longer than a /24 when the allocation
+size is /24. Of course, this would be in the well-documented address
 range(s) where /24s are allocated.
 
 
@@ -201,6 +201,6 @@ ARIN has a dedicated IPv4 block to facilitate IPv6 deployment on 4.10.
 * LACNIC:
 
 2017-4 proposal (Modify the minimum size of initial allocations to ISPs) was 
-ratified on the 16th August, changing the initial allocation size from a /22 
+ratified on 16 August, changing the initial allocation size from a /22 
 to a /24.
 (ref: https://politicas.lacnic.net/politicas/detail/id/LAC-2017-4?language=en)
